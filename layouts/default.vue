@@ -83,7 +83,7 @@
       :fixed="fixed"
       app
     >
-      <span>&copy; 2019</span>
+      <span>&copy; 2019 by Kevin Brendo</span>
     </v-footer>
   </v-app>
 </template>
@@ -103,14 +103,14 @@ export default {
         },
         {
           icon: 'bubble_chart',
-          title: 'Inspire',
+          title: 'Tasks',
           to: '/inspire'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Tardis'
     }
   }
 }

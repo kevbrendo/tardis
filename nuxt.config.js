@@ -1,7 +1,10 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  router: {
+    base: '/tardis/'
+  },
   /*
   ** Headers of the page
   */
@@ -19,7 +22,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+            "https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap"
       }
     ]
   },

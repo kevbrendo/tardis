@@ -8,15 +8,17 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@nuxtjs/vuetify": "0.5.5",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "nodemon": "^1.18.9",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
-    "nodemon": "^1.18.9"
+    "stylus-loader": "^3.0.2"
   }
 }
